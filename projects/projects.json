@@ -1,0 +1,110 @@
+[
+  {
+    "name": "DezLin LLC",
+    "desc": "Ecommerce for both retail and wholesale customers. Migrated company from wordpress to Shopify",
+    "image": "DezLin",
+    "category": "websites",
+    "links": {
+      "view": "https://dezlin.com"
+    }
+  },
+  {
+    "name": "Artificial Grass Discount Depot",
+    "desc": "Wordpress build for startup artificial grass company in Sacramento California.",
+    "image": "agdd1",
+    "category": "websites",
+    "links": {
+      "view": "https://artificialgrassdiscountdepot.com"
+    }
+  },
+  {
+    "name": "San Joaquin A+",
+    "desc": "A ReactJS website built for a local San Joaquin County company looking to better the futures of young students.",
+    "image": "sjAplus",
+    "category": "websites",
+    "links": {
+      "view": "https://sjaplus.org/"
+    }
+  },
+  {
+    "name": "CodeStack Conference",
+    "desc": "CodeStack Conference was built using Angular. The site consists of web hosting an annual live-conference held in the fall.",
+    "image": "CSCLive",
+    "category": "websites",
+    "links": {
+      "view": "https://csconf.org/home"
+    }
+  },
+  {
+    "name": "PC Prometheus",
+    "desc": "A full-stack project built using Angular. The website helps users find parts and build their own PC.",
+    "image": "PcPrometheus",
+    "category": "games",
+    "links": {
+      "view": "https://www.pcprometheus.com"
+    }
+  },
+  {
+    "name": "Stockton Mayor",
+    "desc": "As an intern for CodeStack, I was given UI/UX tasks on the development of the newly created website for the current mayor of Stockton California.",
+    "image": "mayor",
+    "category": "websites",
+    "links": {
+      "view": "https://www.stocktonmayor.org/"
+    }
+  },
+  {
+    "name": "Deal or No Deal",
+    "desc": "A Unity2D project built with C# using the same game aspects from the original Deal or No deal gameshow.",
+    "image": "DealOrNoDeal",
+    "category": "games",
+    "links": {
+      "view": "https://leopoldomanzo.github.io/DealOrNoDealWebGL/"
+    }
+  },
+  {
+    "name": "Lost Stars",
+    "desc": "A unity3D project built with C#, created with a team during the 2021 global gamejam in a span of 72 hours.",
+    "image": "LostStars",
+    "category": "games",
+    "links": {
+      "view": "https://globalgamejam.org/2021/games/lost-stars-1"
+    }
+  },
+  {
+    "name": "Puppy Restaurant",
+    "desc": "A basic HTML, CSS, Javascript template created for freelance web development examples. Built in early 2021.",
+    "image": "Puppy Restaurant",
+    "category": "websites",
+    "links": {
+      "view": "https://leopoldomanzo.github.io/Puppy-Restaurant/"
+    }
+  },
+  {
+    "name": "Hamster Hotel",
+    "desc": "A basic HTML, CSS, Javascript template created for freelance web development examples. Built in late 2020.",
+    "image": "Hamster Hotel",
+    "category": "websites",
+    "links": {
+      "view": "https://leopoldomanzo.github.io/Hamster-Hotel/"
+    }
+  },
+  {
+    "name": "Wordle",
+    "desc": "The popular wordle game developed using simple Javascript.",
+    "image": "wordle",
+    "category": "games",
+    "links": {
+      "view": "https://leopoldomanzo.github.io/wordle/"
+    }
+  },
+  {
+    "name": "Bootstrap Responsiveness",
+    "desc": "A lecture based on responsiveness web design held with a classmate of mine from CodeStack Academy.",
+    "image": "bootstraplecture",
+    "category": "lectures",
+    "links": {
+      "view": "https://www.youtube.com/watch?v=RkSYkwd5NZQ&t=189s&ab_channel=CodeStack"
+    }
+  }
+]

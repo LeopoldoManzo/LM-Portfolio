@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Unity",
+        "icon": "https://img.icons8.com/color/48/00000/unity.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+    {
+        "name": "Postman",
+        "icon": "https://img.icons8.com/color/48/000000/postman.png"
+    },
+    {
+        "name": "VS Code",
+        "icon": "https://img.icons8.com/color/48/000000/visual-studio.png"
+    },
+    {
+        "name": "Microsoft Azure",
+        "icon": "https://img.icons8.com/color/48/000000/azure.png"
+    },
+    {
+        "name": "Shopify",
+        "icon": "https://img.icons8.com/color/48/000000/shopify.png"
+    },
+    {
+        "name": "WordPress",
+        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    },
+    {
+        "name": "Google Analytics",
+        "icon": "https://img.icons8.com/color/48/000000/google-analytics.png"
+    },
+    {
+        "name": "Google Domains",
+        "icon": "https://img.icons8.com/color/48/000000/domain.png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+    {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/color/48/000000/typescript--v1.png"
+    },
+    {
+        "name": "C#",
+        "icon": "https://img.icons8.com/color/48/000000/c--v1.png"
+    },
+    {
+        "name": "SQL",
+        "icon": "https://img.icons8.com/color/48/000000/sql--v1.png"
+    },
+    {
+        "name": "Liquid",
+        "icon": "https://img.icons8.com/color/48/000000/water.png"
+    },
+    {
+        "name": "PHP8",
+        "icon": "https://img.icons8.com/offices/48/000000/php-logo.png"
+    },
+    {
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/plasticine/48/null/react.png"
+    },
+    {
+        "name": "React",
+        "icon": "https://img.icons8.com/plasticine/48/null/react.png"
+    },
+    {
+        "name": "Angular",
+        "icon": "https://img.icons8.com/color/48/null/angularjs.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/null/bootstrap.png"
+    },
+    {
+        "name": "NG Bootstrap",
+        "icon": "https://img.icons8.com/emoji/48/null/ng-button-emoji.png"
+    },
+    {
+        "name": "Prime NG",
+        "icon": "https://img.icons8.com/emoji/48/null/ng-button-emoji.png"
+    },
+    {
+        "name": "JQuery",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo.png"
+    },
+    {
+        "name": "Adobe Suite",
+        "icon": "https://img.icons8.com/nolan/64/adobe-creative-cloud.png"
+    },
+    {
+        "name": "Jira",
+        "icon": "https://img.icons8.com/color/48/null/jira.png"
+    },
+    {
+        "name": "Microsoft .NET",
+        "icon": "https://img.icons8.com/color-glass/48/null/microsoft-onedrive-2019.png"
+    },
+    {
+        "name": "JSON",
+        "icon": "https://img.icons8.com/fluency/48/null/jason-voorhees.png"
+    },
+    {
+        "name": "Shipstation",
+        "icon": "https://img.icons8.com/plasticine/50/null/engineering.png"
+    },
+    {
+        "name": "Ecommerce",
+        "icon": "https://img.icons8.com/color/48/null/online-money-transfer.png"
+    }   
+]
