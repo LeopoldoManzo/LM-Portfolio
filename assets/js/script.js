@@ -38,20 +38,76 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("AkD2ssj_8E8RkgqM6");
+    const form = document.getElementById("contactForm");
+const submitButton = document.getElementById("submitButton");
+const formMessage = document.getElementById("formMessage");
 
-        emailjs.sendForm('service_3wvmgib', 'template_6moumn8', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
+form.addEventListener("submit", async function (event) {
+
+  event.preventDefault();
+
+  // Clear previous message
+  formMessage.textContent = "";
+  formMessage.className = "form-message";
+
+  // Disable button while submitting
+  submitButton.disabled = true;
+  submitButton.textContent = "Sending...";
+
+  const formData = new FormData(form);
+
+  try {
+
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: formData,
+      headers: {
+        "Accept": "application/json"
+      }
     });
+
+    if (response.ok) {
+
+      formMessage.textContent =
+        "Thank you! Your message has been delivered successfully. Please allow up to 72 hours for a response.";
+
+      formMessage.className =
+        "form-message success";
+
+      form.reset();
+
+    } else {
+
+      const data = await response.json().catch(() => null);
+
+      if (data && data.errors) {
+        formMessage.textContent =
+          data.errors.map(error => error.message).join(", ");
+      } else {
+        formMessage.textContent =
+          "Something went wrong. Please try again.";
+      }
+
+      formMessage.className =
+        "form-message error";
+    }
+
+  } catch (error) {
+
+    formMessage.textContent =
+      "Unable to send your message. Please check your connection and try again.";
+
+    formMessage.className =
+      "form-message error";
+
+  } finally {
+
+    submitButton.disabled = false;
+    submitButton.textContent = "Send Message";
+
+  }
+
+});
     // <!-- emailjs to mail contact form data -->
 
 });
@@ -71,7 +127,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Frontend Development", "ios Development", "Web Designing", "Videogame Development"],
+    strings: ["UI/UX Development", "Web Design", "Project Management"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -110,7 +166,7 @@ function showProjects(projects) {
     projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="https://leopoldomanzo.github.io/LM-Portfolio/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -135,7 +191,7 @@ function showProjects(projects) {
     /* ===== SCROLL REVEAL ANIMATION ===== */
     const srtop = ScrollReveal({
         origin: 'top',
-        distance: '80px',
+        distance: '30px',
         duration: 1000,
         reset: true
     });
